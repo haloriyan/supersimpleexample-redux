@@ -27,12 +27,8 @@ const mapStateToProps = (state) => {
 // buat ngirim data ke store
 const mapDispatchToProps = (dispatch) => {
 	return {
-		handlePlus: () => {
-			dispatch(increaseCount());
-		},
-		handleMinus: () => {
-			dispatch(decreaseCount());
-		}
+		handlePlus: () => increaseCount(dispatch),
+		handleMinus: () => decreaseCount(dispatch)
 	};
 };
 
