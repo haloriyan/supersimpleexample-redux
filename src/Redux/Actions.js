@@ -1,7 +1,11 @@
-export const increaseCount = () => ({
-	type: 'INC_COUNT'
-});
+export const increaseCount = (dispatch) => {
+	dispatch({
+		type: 'INC_COUNT'
+	});
+};
 
-export const decreaseCount = () => ({
-	type: 'DEC_COUNT'
-});
+export const decreaseCount = (dispatch) => {
+	dispatch({
+		type: 'DEC_COUNT'
+	});
+};
