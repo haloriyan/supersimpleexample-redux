@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 // importing component
-import Header from './Components/Header'
-import Body from './Components/Body'
+import Header from './Components/Header';
+import Body from './Components/Body';
 
 class App extends Component {
 	render() {
@@ -11,8 +11,8 @@ class App extends Component {
 				<Header />
 				<Body />
 			</div>
-		)
+		);
 	}
 }
 
-export default App
+export default App;
